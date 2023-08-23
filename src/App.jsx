@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import {useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
@@ -6,13 +6,20 @@ import InputField from './form/InputField';
 import Checkbox from './form/Checkbox';
 import RadioButton from './form/RadioButton';
 import Select from './form/Select';
-import ClComponent from './ClassComponent';
-import FuncComponent from './ClassComponent';
+import ClassComponent from './basic-component/ClassComponent';
+import FunctionalComponent from './basic-component/ClassComponent';
 import UseRef from './hooks/UseRefs';
-import Modal from './Modal';
-import Tab from './Tab';
-import Slider from './Slider';
-import Accordion from './Accordion';
+import Modal from './basic-component/Modal';
+import Tab from './basic-component/Tab';
+import Slider from './basic-component/Slider';
+import Accordion from './basic-component/Accordion';
+import UseReducer from './hooks/UseReducer';
+import UseContext from './hooks/UseContext';
+import UseCallback from './hooks/UseCallback';
+import UseMemo from './hooks/UseMemo';
+import ToggleSwitch from './hooks/ToggleSwitch'
+import CustomHookFetchData from './hooks/CustomHooFetchData';
+import FetchDataAPI from './basic-component/FetchDataAPI';
 
 const accordionItems = [
   { title: "Item 1", content: "Content for Item 1" },
@@ -28,23 +35,29 @@ const tabs = [
 
 const slidePages = ["Page 1", "Page 2", "Page 3", "Page 4", "Page 5"];
 
+
 function App() {
   return (
     <>
-      <p>
-        <h1>App</h1>
-      </p>
+      <h1>App</h1>
       {/* <InputField/> */}
       {/* <Checkbox/> */}
        {/* <RadioButton/> */}
       {/* <Select/> */}
-      {/* <ClComponent/> */}
-      {/* <FuncComponent/> */}
+      {/* <ClassComponent/> */}
+      {/* <FunctionalComponent/> */}
       {/* <UseRef/> */}
       {/* <Modal/> */}
       {/* <Tab tabs={tabs}/> */}
       {/* <Slider slidePages={slidePages}/> */}
-      <Accordion items={accordionItems}/>
+      {/* <Accordion items={accordionItems}/> */}
+      {/* <UseReducer/> */}
+      {/* <UseContext/> */}
+      {/* <UseCallback/> */}
+      {/* <UseMemo/>   */}
+      {/* <ToggleSwitch/> */}
+      {/* <FetchDataAPI/> */}
+      {/* <CustomHookFetchData/> */}
     </>
   )
 }
