@@ -1,6 +1,16 @@
+ADDING CODE TO THE GITHUB
 
+<<<<<<< HEAD
 NPUT
 value = 'value' or {} type = text type = password type = email type = number type = date
+=======
+git init
+git add .
+git commit -m "first commit"  // here we can add anything based on our number of commit
+git branch -M main
+git remote add origin https://github.com/GulamJilani5/React-basic-learning.git
+git push -u origin main
+>>>>>>> ec7eb648c978bd55f6fb28e9216a83d0b2913f7f
 
 2 SELECT(DROP DOWN)
 select - value = 'value' or {}, onChange = {} option - contains all the options
