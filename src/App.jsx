@@ -2,6 +2,7 @@ import {useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
+import './index.css';
 import InputField from './form/InputField';
 import Checkbox from './form/Checkbox';
 import RadioButton from './form/RadioButton';
@@ -17,9 +18,11 @@ import UseReducer from './hooks/UseReducer';
 import UseContext from './hooks/UseContext';
 import UseCallback from './hooks/UseCallback';
 import UseMemo from './hooks/UseMemo';
-import ToggleSwitch from './hooks/ToggleSwitch'
-import CustomHookFetchData from './hooks/CustomHooFetchData';
-import FetchDataAPI from './basic-component/FetchDataAPI';
+import ToggleSwitch from './hooks/ToggleSwitch';
+import ProgressBar from './basic-component/ProgressBar';
+// import CustomHookFetchData from './hooks/CustomHooFetchData';
+// import FetchDataAPI from './basic-component/FetchDataAPI';
+import IBMFormLayout from './form/IBMFormLayout';
 
 const accordionItems = [
   { title: "Item 1", content: "Content for Item 1" },
@@ -40,24 +43,27 @@ function App() {
   return (
     <>
       <h1>App</h1>
-      {/* <InputField/> */}
-      {/* <Checkbox/> */}
-       {/* <RadioButton/> */}
-      {/* <Select/> */}
       {/* <ClassComponent/> */}
       {/* <FunctionalComponent/> */}
-      {/* <UseRef/> */}
+      {/* <InputField/> */}
+      {/* <RadioButton/> */}
+      {/* <Select/> */}
+      <Checkbox/>
+      {/* <IBMFormLayout/> */}
+      {/* <ProgressBar/> */}
       {/* <Modal/> */}
       {/* <Tab tabs={tabs}/> */}
       {/* <Slider slidePages={slidePages}/> */}
       {/* <Accordion items={accordionItems}/> */}
-      {/* <UseReducer/> */}
       {/* <UseContext/> */}
+      {/* <UseReducer/> */}
+      {/* <UseRef/> */}
       {/* <UseCallback/> */}
       {/* <UseMemo/>   */}
       {/* <ToggleSwitch/> */}
       {/* <FetchDataAPI/> */}
       {/* <CustomHookFetchData/> */}
+
     </>
   )
 }

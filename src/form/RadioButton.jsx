@@ -1,50 +1,51 @@
 // /////////////////////////////////////////////////////////////////////
-// //////////////////////// BASIC RADIO BUTTON (CIRCLE SHAPE)
-// /////////////////
-// import react from "react";
+// //////////////////////// SELECT ONLY ONE OUT OF MANY
+// ///////////////// BASIC RADIO BUTTON (CIRCLE SHAPE)
+/*
+import react from "react";
 
-// function RadioButtonForm() {
-//   return (
-//     <>
-//       <h3>RadioButtonForm</h3>
-//       <form>
-//         <label>
-//           <input
-//             defaultChecked={true}
-//             type="radio"
-//             name="male"
-//             value="male"
-//             checked="true"
-//           />
-//           Male
-//         </label>
-//         <label>
-//           <input type="radio" name="male" value="female" checked="true" />
-//           Female
-//         </label>
-//         <label>
-//           <input type="radio" name="male" value="others" checked="true" />
-//           others
-//         </label>
-//       </form>
-//     </>
-//   );
-// }
-
-// export default RadioButtonForm;
-/////////////////////////////////////////////////////////////////////
-//////////////////////RADIO BUTTON USING useState() HOOk
+function RadioButtonForm() {
+  return (
+    <>
+      <h3>RadioButtonForm</h3>
+      <form>
+        <label>
+          <input
+            defaultChecked={true}
+            type="radio"
+            name="male"
+            value="male"
+            checked="true"
+          />
+          Male
+        </label>
+        <label>
+          <input type="radio" name="male" value="female" checked="true" />
+          Female
+        </label>
+        <label>
+          <input type="radio" name="male" value="others" checked="true" />
+          others
+        </label>
+      </form>
+    </>
+  );
+}
+export default RadioButtonForm;
+*/
+//////////////////////////////////////////////////////////////////////////
+////////////////////////// RADIO BUTTON USING useState() HOOK 
 ///////////////
 
 // NOTE - Both defaultValue and checked can not be used together in input type = 'radio'
-import react, { useState } from "react";
 
-export default function RadioButtonForm() {
-  const [gender, setGender] = useState("");
-  const handleChange = (e) => {
+import react, { useState } from "react";
+function RadioButtonForm() {
+   const [gender, setGender] = useState('');
+   function handleChange(e){
+    //setGender(e.target.value);
     setGender(e.target.name);
-    // setGender(e.target.value);   // We can use either value or name
-  };
+   }
   return (
     <>
       <h3>RadioButtonForm</h3>
@@ -52,8 +53,8 @@ export default function RadioButtonForm() {
         <label>
           <input
             type="radio"
-            name="male"
             // value="male"
+            name="male"
             checked={gender === "male"}
             onChange={handleChange}
           />
@@ -62,8 +63,8 @@ export default function RadioButtonForm() {
         <label>
           <input
             type="radio"
-            name="female"
             // value="female"
+            name="female"
             checked={gender === "female"}
             onChange={handleChange}
           />
@@ -72,14 +73,17 @@ export default function RadioButtonForm() {
         <label>
           <input
             type="radio"
-            name="others"
             // value="others"
+            name="others"
             checked={gender === "others"}
             onChange={handleChange}
           />
-          others
+          Others
         </label>
       </form>
     </>
   );
-}
+  }
+
+export default RadioButtonForm;
+

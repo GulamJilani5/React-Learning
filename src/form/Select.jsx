@@ -6,7 +6,7 @@
 //   const handleSubmit = () => {};
 //   const handleChange = (e) => {
 //     const value = e.target.value;
-//     console.log(value);
+//     //console.log(value);
 //     setFruit(value);
 //   };
 //   return (
@@ -32,7 +32,6 @@
 ////////////////////// MULTIPLE SELECTION
 /////////
 // import React from "react";
-
 // export default function SelectForms() {
 //   return (
 //     <div>
@@ -63,6 +62,7 @@ import { useState } from "react";
 export default function SelectForms() {
   const [fruit, setFruit] = useState(["orange", "banana"]);
   const handleSubmit = () => {};
+
   const handleChange = (e) => {
     const values = e.target.selectedOptions;
     //console.log(values); // HTMLCollecton
@@ -71,7 +71,9 @@ export default function SelectForms() {
     const selectedOptions = options.map((option) => option.value);
     //console.log(selectedOptions); // Arra of values
     setFruit(selectedOptions);
+
   };
+
   return (
     <div>
       <form onSubmit={handleSubmit}>

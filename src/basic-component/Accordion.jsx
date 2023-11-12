@@ -1,11 +1,11 @@
-////////////////////////////////
-//////////// 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
+///////////////////////////////
 import React from "react";
 import { useState } from "react";
 
 export default function Accordion({ items }) {
   const [activeTab, setActiveTab] = useState(null);
-
   const handleClick = (index) => {
     // setActiveTab(index);
     setActiveTab(index === activeTab ? null : index);
@@ -21,7 +21,79 @@ export default function Accordion({ items }) {
           </li>
           {index === activeTab && <p>{item.content}</p>}
         </div>
-      ))}
+       ))
+      }
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

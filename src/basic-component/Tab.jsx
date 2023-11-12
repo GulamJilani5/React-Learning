@@ -10,7 +10,9 @@ export default function Tab({ tabs }) {
         </button>
       ))}
       {tabs.map((tab) => (
-        <div key={tab.id}>{tab.id === activeTab && <p>{tab.content}</p>}</div>
+        <div key={tab.id}>
+          {tab.id === activeTab && <p>{tab.content}</p>}
+        </div>
       ))}
     </>
   );

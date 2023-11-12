@@ -1,9 +1,10 @@
-/////////////////////////////////////////////////////////////////
-///////////////////////BASIC OF CHECKBOX (SQUARE SHAPE)
-/////////////
-// import React, { useState } from "react";
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////// SELECT MORE THAN ONE OUT OF MANY
+////////////////////////// BASIC OF CHECKBOX (SQUARE SHAPE)
 
-// export default function CheckBoxForm() {
+// import React, { useState } from "react";
+// 
+// export default function CheckBox() {
 //   const [isChecked, setIsChecked] = useState(false);
 //   const handleChange = (e) => {
 //     //const check = e.target.checked;
@@ -14,7 +15,7 @@
 //     <>
 //       <h3>Basic of CheckBox</h3>
 //       <form>
-//         <label htmlFor="gender">CheckBox</label>
+//         <label htmlFor="gender">CheckBox</label> 
 //         <input
 //           id="gender"
 //           type="checkbox"
@@ -26,12 +27,12 @@
 //   );
 // }
 
-/////////////////////////////////////////////
-/////////////////////// Multiple CHECKBOX
-///////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////// Multiple CHECKBOX
+/////////////////////////
 
 // import React, { useState } from "react";
-// export default function CheckBoxForm() {
+// export default function CheckBox() {
 //   const [values, setValues] = useState({
 //     gender: false,
 //     single: false,
@@ -67,41 +68,47 @@
 //   );
 // }
 
-/////////////////////////////////////////////
-/////////////////////// Multiple CHECKBOX
-///////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////// Multiple CHECKBOX
+///////////////////////
 
 import React, { useState } from "react";
 
-export default function CheckBoxForm() {
-  const [hobby, setHobby] = useState({});
+export default function CheckBox() {
+  const [gender, setGender] = useState({});
 
-  const checkboxOptions = [
-    { id: 1, interest: "JavaScript" },
-    { id: 2, interest: "Go" },
-    { id: 3, interest: "AI" },
+  // const checkboxOptions = [
+  //   { id: 1, interest: "JavaScript" },
+  //   { id: 2, interest: "Go" },
+  //   { id: 3, interest: "AI" },
+  // ];
+  const genderOptions = [
+    { id: 1, sex: "male" },
+    { id: 2, sex: "female" },
+    { id: 3, sex: "others" },
   ];
+  
   function handleChange(e) {
     const { name, checked } = e.target;
     console.log(name, checked);
-
-    setHobby((previousState) => ({
+    setGender((previousState) => ({
       ...previousState, //If do not return previous state then will get one check only at a time, like radio button
       [name]: checked,
     }));
   }
+
   return (
     <>
       <h3>Multiple CheckBox</h3>
       <form>
-        {checkboxOptions.map((option) => (
-          <label key={option.id}>
-            {option.interest}
+        {genderOptions.map((gen) => (
+          <label key={gen.id}>
+            {gen.sex}
             <input
-              key={option.id}
+              key={gen.id}
               type="checkbox"
-              name={option.interest}
-              checked={hobby[option.interest] || false}
+              name={gen.sex}
+              checked={gender[gen.sex] || false}
               onChange={handleChange}
             />
           </label>
@@ -110,3 +117,13 @@ export default function CheckBoxForm() {
     </>
   );
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////
+
+
+
+
+
+
+

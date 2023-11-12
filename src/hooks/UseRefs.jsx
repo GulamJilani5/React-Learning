@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// WHEN CLICK ON BUTTON INPUT ELEMENT WILL GET THE FOCUS
-///////////////////
+/////////////////// 
 // import { useRef } from "react"
 // export default function UseRef(){
 // const inputRef = useRef();
@@ -19,9 +19,9 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// READING THE VALUE OF THE INPUT ELEMENT
 ///////////////////
-// import { useRef } from "react"
-// export default function UseRef(){
-// const inputRef = useRef('');
+//  import { useRef } from "react"
+//  export default function UseRef(){
+//  const inputRef = useRef('');
 //    function handleClick(){
 //      const value = inputRef.current.value;
 //      console.log(value)
@@ -30,7 +30,7 @@
 //         <div>
 //           <h1>Using useRef to access value of an element</h1>
 //            <input type="text" ref={inputRef}/>
-//            <button onClick={handleClick}>changeFocus</button>
+//            <button onClick={handleClick}>Get Input Value</button>
 //         </div>
 //     )
 // }
@@ -70,7 +70,7 @@ const inputRef = useRef(0);
     return(
         <div>
            <h1>Using useRef to change style on an element</h1>
-            <p ref={inputRef}>SomeValue</p>
+              <p ref={inputRef}>SomeValue</p>
            <button onClick={increase}>increment</button>
         </div>
     )

@@ -81,7 +81,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////// METHOD 2 - personal way 
-////////////////// *** REDNERING ISSUE IS THERE. I HAVE TO LEARN, UNDERSTAND AND SOLVE
+////////////////// *** REDNERING ISSUE IS THERE. I HAVE TO LEARN, UNDERSTAND AND SOLVE - NOW RESOLVED USING GAURD CLAUSE
 ///////////////// - SOLUTION FOR RENDERING IS GUARD CLAUSE TO CHECK IF DATA IS UNDEFIND THEN RETURN NOTHING
 import { useEffect, useState } from "react";
 

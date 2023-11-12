@@ -23,7 +23,7 @@ export default function UseContext(){
 }
 
  function B() {
-   const contextValue = useContext(SomeContext)
+   const contextValue = useContext(SomeContext);
    console.log('Inside Nested Component B: ', contextValue);
     return(
           <div>

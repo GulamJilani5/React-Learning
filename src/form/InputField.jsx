@@ -30,7 +30,7 @@
 //   );
 // }
 //////////////////////////////////////////////////////////////////
-////////////////////////////// SIMPLE INPUT WITH ONE VALUE
+////////////////////////////// MULTIPLE VALUES
 //////////////////
 
 import React from "react";
@@ -43,8 +43,8 @@ export default function SignForm() {
     email: "",
     password: "",
   });
+  
   //const inputId = useId()
-
   function handleSubmit(e) {
     e.preventDefault();
     console.log(formData);
@@ -59,7 +59,6 @@ export default function SignForm() {
     const name = e.target.name;
     const { value } = e.target;
     console.log(name, value);
-    //  console.log(value);
     setFormData((previousFormData) => ({
       ...previousFormData,
       [name]: value,

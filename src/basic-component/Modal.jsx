@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 // import { FaTimes } from "react-icons/fa";
 export default function Modal() {
-  const [showModal, setShowModal] = useState(false);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+const [showModal, setShowModal] = useState(false);
+const [isModalOpen, setIsModalOpen] = useState(false);
+
   const openModal = () => {
     setShowModal(true);
     setIsModalOpen(true);
@@ -14,9 +15,9 @@ export default function Modal() {
 return (
     <>
       {showModal ? (
-        <div
-          className={isModalOpen ? "modal-overlay show-modal" : "modal-overlay"}
-        >
+          <div
+             className={isModalOpen ? "modal-overlay show-modal" : "modal-overlay"}
+          >
           <div className="modal-container">
             <h3>Modal Heading</h3>
             <p> I am creating it for learning purpose</p>
@@ -24,11 +25,68 @@ return (
               {/* <FaTimes /> */}
               close
             </button>
-          </div>
-        </div>
+           </div>
+         </div>
       ) : (
-        <button onClick={openModal}>show modal</button>
-      )}
+      <button onClick={openModal}>show modal</button>
+      )
+      }
     </>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
