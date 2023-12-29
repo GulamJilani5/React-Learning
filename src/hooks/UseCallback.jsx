@@ -14,7 +14,7 @@ function UseCallback() {
        setCount((prevCount) => prevCount + 1);
     // setCount( count + 1); // It will increase value only once
   }, []); // The empty dependency array means the function won't change unless count changes
-
+               
   return (
     <div>
       <p>Count : {count}</p>

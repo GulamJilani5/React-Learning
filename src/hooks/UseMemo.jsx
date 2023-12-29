@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////////////
+////////////////////////////
+////
 import React, { useState, useMemo } from 'react';
 
 function UseMemo() {
@@ -5,7 +8,7 @@ function UseMemo() {
 
   const squaredNumber = useMemo(() => {
     console.log("Calculating squared number...");
-    return number ** 2; 
+    return number ** 2;
   }, [number]);
 
   return (

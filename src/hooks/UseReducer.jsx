@@ -1,20 +1,25 @@
-import { useReducer } from "react"
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////
+/////// useReducer is very similar to useState, but it lets you move the state update logic from 
+//////  event handlers into a single function outside of your component.
 
+import { useReducer } from "react"
+//reducer function and initial state usually remain outside the component.
+function reducer(state, action){
+  //console.log('inside reduce value of state',state)
+     if(action.type === 'INCREMENT'){
+       // return {age : state.age + 1};
+       return {age : state.age + action.payload};
+     }
+     throw Error('Unknown action type error', action.type);
+  }
+  const initialState = {
+   age:24,
+ }
+ 
+ // Component
 export default function UseReducer() {
   
-   function reducer(state, action){
-     //console.log('inside reduce value of state',state)
-        if(action.type === 'INCREMENT'){
-          // return {age : state.age + 1};
-          return {age : state.age + action.payload};
-        }
-        throw Error('Unknown action type error', action.type);
-     }
-
-     const initialState = {
-      age:23,
-    }
-
    const[state, dispatch] = useReducer(reducer, initialState);
 
    function increamentAge(){

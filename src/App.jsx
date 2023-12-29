@@ -18,6 +18,7 @@ import UseReducer from './hooks/UseReducer';
 import UseContext from './hooks/UseContext';
 import UseCallback from './hooks/UseCallback';
 import UseMemo from './hooks/UseMemo';
+import UseEffect from './hooks/UseEffect';
 import ToggleSwitch from './hooks/ToggleSwitch';
 import ProgressBar from './basic-component/ProgressBar';
 // import CustomHookFetchData from './hooks/CustomHooFetchData';
@@ -48,7 +49,7 @@ function App() {
       {/* <InputField/> */}
       {/* <RadioButton/> */}
       {/* <Select/> */}
-      <Checkbox/>
+      {/* <Checkbox/> */}
       {/* <IBMFormLayout/> */}
       {/* <ProgressBar/> */}
       {/* <Modal/> */}
@@ -60,6 +61,7 @@ function App() {
       {/* <UseRef/> */}
       {/* <UseCallback/> */}
       {/* <UseMemo/>   */}
+      <UseEffect/>
       {/* <ToggleSwitch/> */}
       {/* <FetchDataAPI/> */}
       {/* <CustomHookFetchData/> */}

@@ -16,7 +16,7 @@ export default function ToggleSwitch(){
         <>
            <h1>Toggle Switch Using Custom Hook</h1>
            <button onClick={toggle}>{state ? 'Hide Text': 'Show Text'}</button>
-           {state && <p>Some Text...</p> }
+           {state && <p>Some Text...</p>}
         </>
     )
 }
