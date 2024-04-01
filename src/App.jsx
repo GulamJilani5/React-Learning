@@ -24,6 +24,7 @@ import ProgressBar from './basic-component/ProgressBar';
 // import CustomHookFetchData from './hooks/CustomHooFetchData';
 // import FetchDataAPI from './basic-component/FetchDataAPI';
 import IBMFormLayout from './form/IBMFormLayout';
+<<<<<<< HEAD
 import Video from './video';
 import BasicGrid from './css-layout/basic-grid';
 import NamingGridArea from './css-layout/naming-grid-area';
@@ -32,6 +33,8 @@ import LocationHome from './basic-component/breadcrumb/location-based-breadcrumb
 import LocationRoute from './basic-component/breadcrumb/location-based-breadcrumb/locationRoute';
 import PathRoute from './basic-component/breadcrumb/path-based-breadcrumb/pathRoute';
 import AttributeRoute from './basic-component/breadcrumb/attribute-based-breadcrumb/attribute-route';
+=======
+>>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
 
 const accordionItems = [
   { title: "Item 1", content: "Content for Item 1" },
@@ -51,7 +54,11 @@ const slidePages = ["Page 1", "Page 2", "Page 3", "Page 4", "Page 5"];
 function App() {
   return (
     <>
+<<<<<<< HEAD
       {/* <h1>App</h1> */}
+=======
+      <h1>App</h1>
+>>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
       {/* <ClassComponent/> */}
       {/* <FunctionalComponent/> */}
       {/* <InputField/> */}
@@ -69,6 +76,7 @@ function App() {
       {/* <UseRef/> */}
       {/* <UseCallback/> */}
       {/* <UseMemo/>   */}
+<<<<<<< HEAD
       {/* <UseEffect/> */}
       {/* <ToggleSwitch/> */}
       {/* <FetchDataAPI/> */}
@@ -80,6 +88,13 @@ function App() {
       {/* <LocationRoute/> */}
       {/* <PathRoute/> */}
       <AttributeRoute/>
+=======
+      <UseEffect/>
+      {/* <ToggleSwitch/> */}
+      {/* <FetchDataAPI/> */}
+      {/* <CustomHookFetchData/> */}
+
+>>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
     </>
   )
 }

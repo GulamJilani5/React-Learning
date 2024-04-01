@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////// Create mutable objects (ref objects) to hold values that persist across renders without causing
 //////  the component to re-render.
 /////   Reference a value that’s not needed for rendering.
+=======
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////// create mutable objects (ref objects) to hold values that persist across renders without causing
+//////  the component to re-render.
+>>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// WHEN CLICK ON BUTTON INPUT ELEMENT WILL GET THE FOCUS
@@ -63,6 +69,7 @@ export default ExampleComponent;
 // }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<<<<<<< HEAD
 //////////////////////////////////////////////// INCREASING THE VALUE COUNTER 
 /////////////////////////  VALUE WILL GET INCREMENT WHENEVER WE MAKE CHANGES...
 /////////////////////...IN THE CODE(**COULD NOT PEROPERLY UNDERSTAND), Reason--> It is not right use case
@@ -113,6 +120,38 @@ const inputRef = useRef(0);
       //     inputRef.current.style.backgroundColor = 'red'
       //  }
     
+=======
+//////////////////////////////// INCREASING THE VALUE COUNTER 
+///////////////////  VALUE WILL GET INCREMENT WHENEVER WE MAKE CHANGEs...
+/////////////////////...IN THE CODE(**COULD NOT PEROPERLY UNDERSTAND)
+// import { useRef } from "react"
+// export default function UseRef(){
+// const inputRef = useRef(0);
+
+//    function increase(){
+//      inputRef.current += 1;
+//    }
+//     return(
+//         <div>
+//            <h1>Using useRef to increment counter</h1>
+//             <p>{inputRef.current}</p>
+//            <button onClick={increase}>increment</button>
+//         </div>
+//     )
+// }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// STYLING AN ELEMENT
+///////////////////
+import { useRef } from "react"
+export default function UseRef(){
+const inputRef = useRef(0);
+
+   function increase(){
+     if(inputRef.current){
+        inputRef.current.style.backgroundColor = 'red'
+     }
+>>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
     }
     return(
         <div>
@@ -122,4 +161,7 @@ const inputRef = useRef(0);
         </div>
     )
 }
+<<<<<<< HEAD
 */
+=======
+>>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
