@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
-=======
->>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -99,9 +96,9 @@ form{
   /* display: inline-block; */
 /* } */
 /* form .first-name, form .last-name, form .email{ */
-  /* display: inline-block; */
-  /* width: calc(33% - 0px) */
-  /* width: 33%;
+/* display: inline-block; */
+/* width: calc(33% - 0px) */
+/* width: 33%;
 }  */
 /* form .first-name, form .last-name, form .email{
   width:calc(33.3333333%);
@@ -109,15 +106,14 @@ form{
   background: rgb(201, 40, 40);
   color: rgb(13, 18, 1);
   /* margin: 0 10px; */
-  /* text-align:center; */
-/* } */ 
+/* text-align:center; */
+/* } */
 /* form .address{
   width: 100%;
 } 
 form .profession, form .age{
    width: 50%;
 } */
-
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////METHOD 2
@@ -131,20 +127,20 @@ form{
 .first-row{
   display: flex;
   /* justify-content: space-between; */
-  /* justify-content: space-evenly; */
-  /* align-items: space-between; */
+/* justify-content: space-evenly; */
+/* align-items: space-between; */
 /* } */
 
 /* form .first-name, form .last-name, form .email{
   width:calc(33.3333333%); */
-  /* display:inline-block;
+/* display:inline-block;
   background: rgb(201, 40, 40);
   color: rgb(13, 18, 1); */
-  /* margin: 0 10px; */
-  /* text-align:center; */
-  /* padding: 0;
+/* margin: 0 10px; */
+/* text-align:center; */
+/* padding: 0;
   margin: 0; */
- /* } 
+/* } 
  .second-row{
     display: flex;
  }
@@ -156,7 +152,7 @@ form{
 /* .third-row{
   display: flex;
   /* justify-content: space-between; */
-  /* justify-content: space-evenly;
+/* justify-content: space-evenly;
 } */
 
 /* form .profession, form .age{
@@ -191,4 +187,3 @@ form .mobile-number, form .skype{
 /////////////////////////// BOOTSTRAP
 
 */
-

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React from "react";
 import "../index.css";
 ///////////////////////////////////////////////////////////////////////////////
@@ -25,7 +25,8 @@ export default function IBMFormLayout() {
       <input type="text" className="submit" placeholder="submit" />
     </Wrapper>
   );
-=======
+}
+
 import React from 'react'
 import '../index.css';
 /////////////////////////////////////////////////////////////////////////////// 
@@ -48,14 +49,13 @@ export default function IBMFormLayout() {
             <input type="text" className='submit' placeholder='submit'/>
         </Wrapper>
         )
->>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
+
 }
 
 const Wrapper = styled.form`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 
-<<<<<<< HEAD
   .first-name {
     grid-column: span 2;
   }
@@ -88,9 +88,8 @@ const Wrapper = styled.form`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-`;
 
-=======
+
   .first-name{
     grid-column: span 2;
   }
@@ -127,7 +126,7 @@ const Wrapper = styled.form`
 
 
 
->>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
+
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////// METHOD 2
 //////////// ADDING CONTAINER FOR FLEXBOX
@@ -198,8 +197,4 @@ export default function IBMFormLayout() {
 }
 
 */
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
