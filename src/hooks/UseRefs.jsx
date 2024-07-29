@@ -1,14 +1,24 @@
-<<<<<<< HEAD
-////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////// Create mutable objects (ref objects) to hold values that persist across renders without causing
-//////  the component to re-render.
-/////   Reference a value that’s not needed for rendering.
-=======
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////// create mutable objects (ref objects) to hold values that persist across renders without causing
-//////  the component to re-render.
->>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////// Create mutable objects (ref objects has a single property, 'current') to hold values that persist 
+//////  across renders without causing the component to re-render.
+/////   Reference a value that’s not needed for rendering.
+/////   A common use case for useRef is to manage focus, measure DOM nodes, or integrate with third-party libraries
+/////   that require direct DOM manipulation.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////// Measuring DOM Nodes
+/////////////////// 
+const divRef = useRef(null);
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+
+  useEffect(() => {
+    if (divRef.current) {
+      const { width, height } = divRef.current.getBoundingClientRect();
+      setDimensions({ width, height });
+    }
+  }, []);
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// WHEN CLICK ON BUTTON INPUT ELEMENT WILL GET THE FOCUS
 /////////////////// 

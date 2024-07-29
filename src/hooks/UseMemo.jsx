@@ -75,7 +75,7 @@ const ExpensiveComponent = () => {
   const [data, setData] = useState([
     /***** large dataset *****/
   ]);
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(""); // query here means input value in the input box
 
   const filteredData = useMemo(() => {
     console.log("Filtering data");
