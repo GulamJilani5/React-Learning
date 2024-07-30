@@ -13,6 +13,7 @@
 // Performance optimization - useMemo(), useCallback(), memo() [see respective files(UseMemo.jsx, UseCallback.jsx)
 //                            in hooks folder]
 // Custom Hook for toggling and data fetching(see useToggle.jsx, CustomHookFetchData.jsx)
+// useReducer, useContext, useEffect()[see respective files UseReducer.jsx, UseContext.jsx, UseEffect.jsx]
 
 /*************STATE************/
 //////// MUTABLE:
