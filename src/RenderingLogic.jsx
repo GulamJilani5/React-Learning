@@ -3,12 +3,12 @@
  *****************************************************************************************************************/
 
 /****************************General re-rendering idea Start****************************/
-// Initial Render:
-// When a component (e.g., ParentComponent) is initially rendered, React renders its children components
-// (e.g., SomeComponent) as part of its JSX.
-// Subsequent Renders:
-// When ParentComponent re-renders, React will also re-render SomeComponent as part of the process.
-// This occurs regardless of whether SomeComponent has props or not.
+///// Initial Render:
+//      When a component (e.g. ParentComponent) is initially rendered, React renders its children components
+//      (e.g. SomeComponent) as part of its JSX.
+///// Subsequent Renders:
+//      When ParentComponent re-renders, React will also re-render SomeComponent as part of the process.
+//      This occurs regardless of whether SomeComponent has props or not.
 /****************************General re-rendering idea END****************************/
 
 /*********Scenarios and Corner Cases With an Parent Component and Child Component(eg. SomeComponent) Example********/
