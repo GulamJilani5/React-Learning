@@ -1,19 +1,99 @@
 ///////////////////////Accenture interview questions
+
+/************************** Javascript ******************************************************/
+///// Round 1
+//1.
+const numbers = [1, 2, 3, 4, 5];
+const [y] = numbers; // What is the value of y.
+//2.
+const arr = [1, 2, 3, 4, 5];
+arr[10] = 11;
+console.log(arr.length);
+//3.
+const arr = ["one", "two", "three", "four", "five"];
+delete arr[3];
+console.log(arr.length);
+//4. What is lexical scope.
+//5. What is temporal dead.
+
+///// Round 2
+//1. what is cors.
+//2. If i am having html list, how can access the content of all the similar list tags with vanilla javascript.
+//3. if i am placing script tag before the body tag then what will be the issue.
+
+/************************** ReactJS ******************************************************/
+////// Round 1
 // synthetic event(see EventHandler.jsx)
 // state
 // DOM vs Virtual DOM
 // Core of the redux
 // mapToDispatchProps and mapToStateProps
-// Middleware
+// Middleware in frontend(Reactjs)
 // Pure function
 // Redux saga  (see ReduxSaga.jsx)
 
-//////////////////// Other useful reactjs questions
-// props
-// Performance optimization - useMemo(), useCallback(), memo() [see respective files(UseMemo.jsx, UseCallback.jsx)
+////// Round 2
+//1. post and put request
+//2. fetch and Axios
+//Fetch - We explicitly convert the javascript to json string in the body of the fetch method.
+//       Order of the method, body and header does not matter.
+
+fetch("https://example.com", {
+  method: "Get/POST/PUT/PATCH/DELETE",
+
+  headers: {
+    "Content-Type": "application/json", // Setting the request headers
+    Authorization: "Bearer your-access-token", // // Authorization header
+  },
+
+  body: JSON.stringify({
+    name: "John Doe",
+    age: 30,
+  }),
+  // body: JSON.stringify({ username, password })
+
+  // credentials: "include", // Cookies such as 'session_id' will be included
+});
+
+// Axios - Order of the URL, body and header matters
+// URL (First argument) – The endpoint to which you are sending the request.
+// Data (Body) (Second argument) – The payload you want to send in the POST request.
+//                                 directly passed as the second argument.
+// Config (Third argument) – The configuration options like headers.
+
+axios.post(
+  "https://example.com",
+
+  {
+    name: "John Doe",
+    age: 30,
+  },
+
+  {
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Bearer your-access-token",
+    },
+
+    withCredentials: true, // Cookies such as 'session_id' will be included
+  }
+);
+
+//3. Storing the local storage data from one application and trying to access the same data from the another
+//   application in the same browser. What will happened? (Same origin policy)
+//4. If I am getting the response like that "[{"id", "1"}, {"name","jilani"}]"
+//   -getting api response as string and then that string has json string.
+//   -how would I handle it
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+///////////////////  These questions are important for Accenture point of view
+
+//1. props
+//2. Performance optimization - useMemo(), useCallback(), memo() [see respective files(UseMemo.jsx, UseCallback.jsx)
 //                            in hooks folder]
-// Custom Hook for toggling and data fetching(see useToggle.jsx, CustomHookFetchData.jsx)
-// useReducer, useContext, useEffect()[see respective files UseReducer.jsx, UseContext.jsx, UseEffect.jsx]
+//3. Custom Hook for toggling and data fetching(see useToggle.jsx, CustomHookFetchData.jsx)
+//4. useReducer, useContext, useEffect()[see respective files UseReducer.jsx, UseContext.jsx, UseEffect.jsx]
 
 /*************STATE************/
 //////// MUTABLE:

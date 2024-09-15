@@ -1,8 +1,8 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
-import "./index.css";
+// import "./App.css";
+// import "./index.css";
 // import InputField from "./form/InputField";
 // import Checkbox from "./form/Checkbox";
 // import RadioButton from "./form/RadioButton";
@@ -20,10 +20,10 @@ import "./index.css";
 // import UseMemo from "./hooks/UseMemo";
 // import UseEffect from "./hooks/UseEffect";
 // import ToggleSwitch from "./hooks/ToggleSwitch";
-// import ProgressBar from "./basic-component/ProgressBar";
+// import ProgressBar from "./neoSoft/ProgressBar";
 // import CustomHookFetchData from './hooks/CustomHooFetchData';
 // import FetchDataAPI from './basic-component/FetchDataAPI';
-// import IBMFormLayout from "./form/IBMFormLayout";
+import IBMFormLayout from "./ibm/IBMFormLayout";
 // import Video from "./video";
 // import BasicGrid from "./css-layout/basic-grid";
 // import NamingGridArea from "./css-layout/naming-grid-area";
@@ -32,7 +32,8 @@ import "./index.css";
 // import LocationRoute from "./basic-component/breadcrumb/location-based-breadcrumb/locationRoute";
 // import PathRoute from "./basic-component/breadcrumb/path-based-breadcrumb/pathRoute";
 // import AttributeRoute from "./basic-component/breadcrumb/attribute-based-breadcrumb/attribute-route";
-import Debounce from "./Debounce";
+// import Debounce from "./Debounce";
+import Chatbox from "./nagarro/chatbox/chatbox";
 
 const accordionItems = [
   { title: "Item 1", content: "Content for Item 1" },
@@ -51,7 +52,6 @@ const slidePages = ["Page 1", "Page 2", "Page 3", "Page 4", "Page 5"];
 function App() {
   return (
     <>
-      {/* <h1>App</h1> */}
       <h1>App</h1>
       {/* <ClassComponent/> */}
       {/* <FunctionalComponent/> */}
@@ -59,8 +59,8 @@ function App() {
       {/* <RadioButton/> */}
       {/* <Select/> */}
       {/* <Checkbox/> */}
-      {/* <IBMFormLayout/> */}
-      {/* <ProgressBar/> */}
+      <IBMFormLayout />
+      {/* <ProgressBar /> */}
       {/* <Modal /> */}
       {/* <Tab tabs={tabs}/> */}
       {/* <Slider slidePages={slidePages}/> */}
@@ -70,7 +70,6 @@ function App() {
       {/* <UseRef/> */}
       {/* <UseCallback/> */}
       {/* <UseMemo/>   */}
-
       {/* <UseEffect/> */}
       {/* <ToggleSwitch/> */}
       {/* <FetchDataAPI/> */}
@@ -82,12 +81,12 @@ function App() {
       {/* <LocationRoute/> */}
       {/* <PathRoute/> */}
       {/* <AttributeRoute /> */}
-
       {/* <UseEffect /> */}
       {/* <ToggleSwitch/> */}
       {/* <FetchDataAPI/> */}
       {/* <CustomHookFetchData/> */}
-      <Debounce />
+      {/* <Debounce /> */}
+      {/* <Chatbox /> */}
     </>
   );
 }

@@ -99,7 +99,7 @@ html, */
 /* body {
     background-color: rgb(0, 0, 0);
 } */
-
+/* 
 .video-section {
   overflow: hidden;
   position: relative;
@@ -116,8 +116,8 @@ html, */
 .video-copy h1 {
   color: #ffffff;
   /* letter-spacing: -5vw; */
-}
-
+/* } */
+/* 
 .video-copy {
   height: 100%;
   position: absolute;
@@ -130,8 +130,10 @@ html, */
   background-color: rgb(0, 0, 0);
   user-select: none;
   mix-blend-mode: multiply;
-}
+}  */
 
 /* .spacer {
     height: 70vh;
 } */
+
+/************************* Progressbar*******************/

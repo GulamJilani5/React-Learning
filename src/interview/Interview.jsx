@@ -1,5 +1,5 @@
-///////////////////////////////////////////
-/////////////////////
+//////////////////////////////////////////////
+////////////////////////
 ///////////
 // React lifecylce
 // Server component vs client component(SSR, CSR etc)
@@ -23,7 +23,7 @@
  ** Server Actions NextJS 14 - https://blog.logrocket.com/diving-into-server-actions-next-js-14
  ***********1. Actions. Server Actions and Server Component
  ********** 2. React DOM: <form> Actions
- ********** 3. seActionState
+ ********** 3. useActionState
  ********** 4. React DOM: New hook: useFormStatus
  ********** 5. New hook: useOptimistic
  ********** 6. New API: use

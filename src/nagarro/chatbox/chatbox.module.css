@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #0bb3eb;
+}
+
+.main {
+  background-color: #f9f9f9;
+  flex-grow: 1;
+  padding: 10px;
+
+  overflow-y: auto; /* Allows scrolling for messages */
+  display: flex;
+  flex-direction: column-reverse; /* Messages stack from bottom to top */
+}
+
+.main .chatText {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end; /* Default to right for sent messages */
+}
+
+.footerCotnainer {
+  /* background-color: red; */
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.footerCotnainer .footer {
+  background-color: #81d18f;
+  border: 1px solid #81d18f;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerCotnainer input {
+  flex-grow: 1;
+  padding: 10px;
+
+  border: 1px solid #81d18f;
+  border-radius: 4px;
+}
+
+.footerCotnainer button {
+  padding: 10px;
+
+  border: none;
+
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+.chatbox-footer button:hover {
+  background-color: #0056b3;
+}

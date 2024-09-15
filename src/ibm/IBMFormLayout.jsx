@@ -1,10 +1,9 @@
-
-import React from "react";
-import "../index.css";
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////// CSS PART IS Using styled component
-/////////////////////////////////////// METHOD 1
 ///////////// ACTUAL QUESTION ASKED IN IBM
+
+import React from "react";
+
 import styled from "styled-components";
 
 export default function IBMFormLayout() {
@@ -27,58 +26,34 @@ export default function IBMFormLayout() {
   );
 }
 
-import React from 'react'
-import '../index.css';
-/////////////////////////////////////////////////////////////////////////////// 
-///////////////////////////////////////////// CSS PART IS Using styled component
-/////////////////////////////////////// METHOD 1
-///////////// ACTUAL QUESTION ASKED IN IBM
-import styled from 'styled-components';
-
-export default function IBMFormLayout() {
-  return (
-       <Wrapper>
-            <input type="text" className='first-name' placeholder='first-name'/>
-            <input type="text" className='last-name' placeholder='last-name'/>
-            <input type="text" className='email' placeholder='email'/>
-            <input type="text" className='address' placeholder='address'/>
-            <input type="text" className='profession' placeholder='profession'/>
-            <input type="text" className='age' placeholder='age'/>
-            <input type="text" className='mobile-number' placeholder='mobile-number'/>
-            <input type="text" className='skype' placeholder='skype'/>
-            <input type="text" className='submit' placeholder='submit'/>
-        </Wrapper>
-        )
-
-}
-
 const Wrapper = styled.form`
+  margin: 4vw 4vw;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
 
   .first-name {
-    grid-column: span 2;
+    grid-column: span 4;
   }
   .last-name {
-    grid-column: span 2;
+    grid-column: span 4;
   }
   .email {
-    grid-column: span 2;
+    grid-column: span 4;
   }
   .address {
     grid-column: 1/-1;
   }
   .profession {
-    grid-column: span 3;
+    grid-column: span 6;
   }
   .age {
-    grid-column: span 3;
+    grid-column: span 6;
   }
   .mobile-number {
-    grid-column: span 3;
+    grid-column: span 6;
   }
   .skype {
-    grid-column: span 3;
+    grid-column: span 6;
   }
 
   .submit {
@@ -88,48 +63,12 @@ const Wrapper = styled.form`
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-
-
-  .first-name{
-    grid-column: span 2;
-  }
-  .last-name{
-    grid-column: span 2;
-  }
-  .email{
-    grid-column: span 2;
-  }
-  .address{
-    grid-column:1/-1;
-  }
-  .profession{
-       grid-column: span 3;
-  }
-  .age{
-       grid-column: span 3;
-  }
-  .mobile-number{
-       grid-column: span 3;
-  }
-  .skype{
-       grid-column: span 3;
-  }
-
-  .submit{
-    grid-column: 1/-1;
-  }
-
- @media screen and (max-width: 768px){
-    grid-template-columns: 1fr;
- }
 `;
 
-
-
-
 ///////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////// METHOD 2
-//////////// ADDING CONTAINER FOR FLEXBOX
+/////////////////////////////////////////////
+//////////// Using CSS Module
+
 /*
 export default function IBMFormLayout() {
   return (
@@ -197,4 +136,3 @@ export default function IBMFormLayout() {
 }
 
 */
-
