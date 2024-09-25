@@ -19,10 +19,15 @@ export default function ProgressBar() {
 
   /*
   return (
-    <div className="progress-bar" style={{ width: `${progress}%` }}>
-      <p className="progress" style={{ width: `${progress}%` }}>
-        {progress}
-      </p>
+    <div
+      style={{
+        backgroundColor: 'green',
+        width: `${progress}%`,
+        display: 'flex',
+        justifyContent: 'flex-end',
+      }}
+    >
+      <span>{progress}</span>
     </div>
   );
 }

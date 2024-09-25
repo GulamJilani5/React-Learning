@@ -1,27 +1,25 @@
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
-/////// Create mutable objects (ref objects has a single property, 'current') to hold values that persist 
+/////// Create mutable objects (ref objects has a single property, 'current') to hold values that persist
 //////  across renders without causing the component to re-render.
 /////   Reference a value that’s not needed for rendering.
 /////   A common use case for useRef is to manage focus, measure DOM nodes, or integrate with third-party libraries
 /////   that require direct DOM manipulation.
 
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// Measuring DOM Nodes
-/////////////////// 
+///////////////////
 const divRef = useRef(null);
-  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
-  useEffect(() => {
-    if (divRef.current) {
-      const { width, height } = divRef.current.getBoundingClientRect();
-      setDimensions({ width, height });
-    }
-  }, []);
+useEffect(() => {
+  if (divRef.current) {
+    const { width, height } = divRef.current.getBoundingClientRect();
+    setDimensions({ width, height });
+  }
+}, []);
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// WHEN CLICK ON BUTTON INPUT ELEMENT WILL GET THE FOCUS
-/////////////////// 
+///////////////////
 // import { useRef } from "react"
 // export default function UseRef(){
 // const inputRef = useRef();
@@ -79,29 +77,28 @@ export default ExampleComponent;
 // }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
-<<<<<<< HEAD
-//////////////////////////////////////////////// INCREASING THE VALUE COUNTER 
+//////////////////////////////////////////////// INCREASING THE VALUE COUNTER
 /////////////////////////  VALUE WILL GET INCREMENT WHENEVER WE MAKE CHANGES...
 /////////////////////...IN THE CODE(**COULD NOT PEROPERLY UNDERSTAND), Reason--> It is not right use case
 //////////////////// of the 'useRef' hook, because it is not useful when needed for re-rendering.
 /////////////////// So, for this purspose we should use useState() hook.
+
 import { useRef } from "react";
-export default function UseRef(){
+export default function UseRef() {
   const inputRef = useRef(0);
 
-  function increase(){
-     inputRef.current += 1;
-     console.log(inputRef);
-   }
-    return(
-         <div>
-            <h1>Using useRef to increment counter</h1>
-              <p>{inputRef.current}</p>
-             <button onClick={increase}>increment</button>
-         </div>
-       )
+  function increase() {
+    inputRef.current += 1;
+    console.log(inputRef);
+  }
+  return (
+    <div>
+      <h1>Using useRef to increment counter</h1>
+      <p>{inputRef.current}</p>
+      <button onClick={increase}>increment</button>
+    </div>
+  );
 }
-
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// STYLING AN ELEMENT
@@ -130,7 +127,7 @@ const inputRef = useRef(0);
       //     inputRef.current.style.backgroundColor = 'red'
       //  }
     
-=======
+
 //////////////////////////////// INCREASING THE VALUE COUNTER 
 ///////////////////  VALUE WILL GET INCREMENT WHENEVER WE MAKE CHANGEs...
 /////////////////////...IN THE CODE(**COULD NOT PEROPERLY UNDERSTAND)
@@ -153,6 +150,7 @@ const inputRef = useRef(0);
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// STYLING AN ELEMENT
 ///////////////////
+/*
 import { useRef } from "react"
 export default function UseRef(){
 const inputRef = useRef(0);
@@ -161,8 +159,8 @@ const inputRef = useRef(0);
      if(inputRef.current){
         inputRef.current.style.backgroundColor = 'red'
      }
->>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547
-    }
+
+}
     return(
         <div>
            <h1>Using useRef to change style on an element</h1>
@@ -171,7 +169,4 @@ const inputRef = useRef(0);
         </div>
     )
 }
-<<<<<<< HEAD
 */
-=======
->>>>>>> 24ce8aad758a0d1af6213fa034070452a28f2547

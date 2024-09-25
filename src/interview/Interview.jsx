@@ -1,10 +1,13 @@
-//////////////////////////////////////////////
-////////////////////////
-///////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
+////////////////////////////////
 // React lifecylce
 // Server component vs client component(SSR, CSR etc)
 // Reactjs 18 features
 // reactjs 19 feature - hooks and other features
+// ERROR HANDLING
+// Code Splitting
+// Authenticated - Protected Route
 
 /****************************************************************************************************
  *********Reactjs 18 features
@@ -17,6 +20,7 @@
  ********** 7. useId Hook
  ********** 8. startTransition API
  *******************************************************************************************************/
+
 /****************************************************************************************************
  *********Reactjs 19 features
  ** https://react.dev/blog/2024/04/25/react-19
@@ -66,6 +70,78 @@ useEffect(() => {
 }, []); // Empty dependency array ensures cleanup runs on unmount
 
 /********* 3. ERROR HANDLING *************/
-// These methods are called when an error occurs during rendering, in a lifecycle method, or in a constructor of any child component.
-// static getDerivedStateFromError(error): Used to update the state so the next render shows a fallback UI.
-// componentDidCatch(error, info): Used to log error information.
+// These methods are called when an error occurs during rendering, in a lifecycle method, or in a constructor of
+// any child component. static getDerivedStateFromError(error): Used to update the state so the next render shows
+// a fallback UI. componentDidCatch(error, info): Used to log error information.
+
+/*******************************************************************************************************
+ ***** Error Boundry -  https://blog.logrocket.com/react-error-handling-react-error-boundary/
+ ****  Error handling - https://blog.logrocket.com/8-common-react-error-messages-how-address-them/
+ ********************************************************************************************************/
+///// Method 1
+// In class component we can catch it using the life cycle Method
+//1.  getDerivedStateFromError(): This lifecycle method renders a fallback UI after an error is thrown.
+//   It is called during the render phase, so side effects are not permitted
+//2. componentDidCatch(): This method is used to log error information. It is called during the commit phase,
+//   so side effects are permitted
+
+///// Method 2
+// react-error-boundary library - It works well with functional component
+import { ErrorBoundary } from "react-error-boundary";
+function App() {
+  return (
+    <ErrorBoundary
+      FallbackComponent={MyFallbackComponent}
+      onReset={() => {
+        // reset the state of your app here
+      }}
+      resetKeys={["someKey"]}
+    >
+      <MyComponent />
+    </ErrorBoundary>
+  );
+}
+//   /* <ErrorBoundary FallbackComponent={ErrorFallback} onError={logErrorToService}></ErrorBoundary> */
+
+///// Method 3
+// react-router-dom - path, element, errorElement
+
+///// Method 4
+// Create error component and wrap our component inside the component
+
+///// Method 5
+// Error fallback component
+
+/*******************************************************************************************************
+ ***** Code Splitting - https://medium.com/@shriharim006/code-splitting-in-react-optimize-performance-by-splitting-your-code
+                        -e3e70d0c3d91#:~:text=Code%20splitting%20is%20a%20powerful,built%2Din%20tools%20like%20React.
+ ********************************************************************************************************/
+///// Method 1:
+//  React.lazy() with Suspense
+const LazyComponent = lazy(() => import("./LazyComponent"));
+const App = () => {
+  return (
+    <div>
+      <h1>My React App</h1>
+      <Suspense fallback={<div>Loading...</div>}>
+        <LazyComponent />
+      </Suspense>
+    </div>
+  );
+};
+
+///// Method 2:
+//Dynamic Import with Webpack
+handleClick = async () => {
+  const module = await import("./DynamicComponent");
+  // Do something with the dynamically imported module
+};
+
+/*******************************************************************************************************
+ ***** Authentication or protected route - https://blog.logrocket.com/adding-login-authentication-secure-react-apps/
+ ********************************************************************************************************/
+//Token based authentication
+//   storing the token on the local storage and access the protected resources
+//   Session based authentication - server side
+
+// Server store the cookies and client accordingly access the only after logged in

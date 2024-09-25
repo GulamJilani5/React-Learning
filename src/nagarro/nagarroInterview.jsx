@@ -63,7 +63,8 @@
 //5. Explain css3 and html5 features with an example
 
 /*******************************************************************************************************
- ***** Error Boundry - https://blog.logrocket.com/react-error-handling-react-error-boundary/
+ ***** Error Boundry -  https://blog.logrocket.com/react-error-handling-react-error-boundary/
+ ****  Error handling - https://blog.logrocket.com/8-common-react-error-messages-how-address-them/
  ********************************************************************************************************/
 ///// Method 1
 // In class component we can catch it using the life cycle Method
@@ -129,6 +130,6 @@ handleClick = async () => {
  ********************************************************************************************************/
 //Token based authentication
 //   storing the token on the local storage and access the protected resources
-// Session based authentication - server side
+//   Session based authentication - server side
 
 // Server store the cookies and client accordingly access the only after logged in

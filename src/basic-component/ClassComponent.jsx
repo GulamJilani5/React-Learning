@@ -8,7 +8,6 @@
 //         count : 0,
 //     }
 //     this.increase = this.increase.bind(this);
-//   }
 // }
 //   increase(){
 //    this.setState({count : this.state.count + 1})

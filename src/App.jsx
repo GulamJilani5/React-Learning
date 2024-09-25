@@ -23,7 +23,7 @@ import viteLogo from "/vite.svg";
 // import ProgressBar from "./neoSoft/ProgressBar";
 // import CustomHookFetchData from './hooks/CustomHooFetchData';
 // import FetchDataAPI from './basic-component/FetchDataAPI';
-import IBMFormLayout from "./ibm/IBMFormLayout";
+// import IBMFormLayout from "./ibm/IBMFormLayout";
 // import Video from "./video";
 // import BasicGrid from "./css-layout/basic-grid";
 // import NamingGridArea from "./css-layout/naming-grid-area";
@@ -33,7 +33,9 @@ import IBMFormLayout from "./ibm/IBMFormLayout";
 // import PathRoute from "./basic-component/breadcrumb/path-based-breadcrumb/pathRoute";
 // import AttributeRoute from "./basic-component/breadcrumb/attribute-based-breadcrumb/attribute-route";
 // import Debounce from "./Debounce";
-import Chatbox from "./nagarro/chatbox/chatbox";
+// import Chatbox from "./nagarro/chatbox/chatbox";
+
+import LazyLoadImages from "./intelizign/lazy-laoding-images/LazyLoadImages";
 
 const accordionItems = [
   { title: "Item 1", content: "Content for Item 1" },
@@ -59,7 +61,7 @@ function App() {
       {/* <RadioButton/> */}
       {/* <Select/> */}
       {/* <Checkbox/> */}
-      <IBMFormLayout />
+      {/* <IBMFormLayout /> */}
       {/* <ProgressBar /> */}
       {/* <Modal /> */}
       {/* <Tab tabs={tabs}/> */}
@@ -87,6 +89,7 @@ function App() {
       {/* <CustomHookFetchData/> */}
       {/* <Debounce /> */}
       {/* <Chatbox /> */}
+      <LazyLoadImages />
     </>
   );
 }
