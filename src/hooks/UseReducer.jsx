@@ -25,7 +25,7 @@
 // export default function UseReducer() {
 //   const [state, dispatch] = useReducer(reducer, initialState);
 
-//   function increamentAge() {
+//   function incrementAge() {
 //     // dispatch({type:'INCREAMENT'})
 //     dispatch({ type: "INCREMENT", payload: 10 });
 //   }
@@ -33,7 +33,7 @@
 //   return (
 //     <div>
 //       <h1>useReducer</h1>
-//       <button onClick={increamentAge}>Increase Age</button>
+//       <button onClick={incrementAge}>Increase Age</button>
 //       {/*We can dispatch an action and payload from onClick attributes of button without creating any event handler function */}
 //       {/* <button onClick={() =>  dispatch({ type: 'INCREMENT' }) }>Increase Age</button> */}
 //       <p>Your age : {state.age}</p>

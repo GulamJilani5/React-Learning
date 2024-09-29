@@ -21,11 +21,8 @@
 //             try {
 //                 setLoading(true)
 //                 const response = await fetch(url)
-//                 // console.log('a')
 //                 // console.log(response)
 //                 const data = await response.json();
-//                 // console.log(data)
-//                 // console.log('b')
 //                 setData(data);
 //                 setLoading(false)
 

@@ -1,14 +1,49 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////// Reactjs To Crack Any Interview
 ////////////////////////////////
-// React lifecylce
-// Server component vs client component(SSR, CSR etc)
-// Reactjs 18 features
-// reactjs 19 feature - hooks and other features
-// ERROR HANDLING
-// Code Splitting
-// Authenticated - Protected Route
 
+/********************************************************************************************************
+*******************Interview Coding Questions in Reactjs (Practical)**********************
+******************************************************************************
+***1. Form - textbox, checkbox and radio button, dropdwon(select options)
+***2. Hooks - useState, useEffect, useContext, useReducer, useMemo, useCallback
+***3. API Call and map function to render data on UI.
+******************************************************************************
+/*********************************************************************************************************/
+
+/*********************************************************************************************************
+***********************************Advance Feature in Reactjs****************
+******************************************************************************
+***1. Reactjs 18 features
+***2. reactjs 19 feature - hooks and other features
+***3. ERROR HANDLING
+***4. Code Splitting
+***5. Authenticated - Protected Route
+***6. State Management -redux thunk and redux saga.
+***7. Types Of Component component(SSR, CSR, SSG, ISG )
+*******************************************************************************
+/**********************************************************************************************************/
+
+/*********************************************************************************************************
+***********************************Topics to explore in Reactjs******************
+*********************************************************************************
+***1. Authentication: JWT, OAuth2.
+***2. Security Best Practices: HTTPS version, CORS, XSS prevention, CSRF.
+***3. Encryption: SSL/TLS, Hashing (bcrypt).
+***4. Storage: localStorage, sessionStorage, indexDB, Caching(service wroker), Cooking,
+***5. Networking:  webSockket, server Sent event.
+***5. Worker Threads, Service Worker(Caching)
+**********************************************************************************
+***********************************************************************************************************
+
+***1. Reactjs 18 features
+***2. reactjs 19 feature - hooks and other features
+***3. ERROR HANDLING
+***4. Code Splitting
+***5. Authenticated - Protected Route
+***6. Server component vs client component(SSR, CSR, SSG, ISG etc)
+*******************************************************************************
+/**********************************************************************************************************/
 /****************************************************************************************************
  *********Reactjs 18 features
  ***********1. Automatic Batching (see AccentureInterview.jsx DOM vs RealDOM)
@@ -113,8 +148,8 @@ function App() {
 // Error fallback component
 
 /*******************************************************************************************************
- ***** Code Splitting - https://medium.com/@shriharim006/code-splitting-in-react-optimize-performance-by-splitting-your-code
-                        -e3e70d0c3d91#:~:text=Code%20splitting%20is%20a%20powerful,built%2Din%20tools%20like%20React.
+ ***** Code Splitting -
+  https://medium.com/@shriharim006/code-splitting-in-react-optimize-performance-by-splitting-your-code-e3e70d0c3d91#:~:text=Code%20splitting%20is%20a%20powerful,built%2Din%20tools%20like%20React.
  ********************************************************************************************************/
 ///// Method 1:
 //  React.lazy() with Suspense
@@ -138,7 +173,10 @@ handleClick = async () => {
 };
 
 /*******************************************************************************************************
- ***** Authentication or protected route - https://blog.logrocket.com/adding-login-authentication-secure-react-apps/
+ **Authentication or protected route -
+     https://blog.logrocket.com/adding-login-authentication-secure-react-apps/
+ **Authentication with redux toolkit and Redux toolkit Query -
+     https://blog.logrocket.com/handling-user-authentication-redux-toolkit/
  ********************************************************************************************************/
 //Token based authentication
 //   storing the token on the local storage and access the protected resources

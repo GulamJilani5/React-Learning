@@ -24,9 +24,10 @@
 //3. Can we submit the form without use of JavaScript.
 // Where will the collected data go(to which url).
 //4. What are semantic elements
-//   Does semantic elements help in seo
+//   Does semantic elements help in SEO
+
 /*************************************************************************************************
- **************************** REactjs
+ **************************** Reactjs
  ************************************************************************************************/
 //1. Core Principle
 //2. state management
@@ -44,7 +45,7 @@
 ///////////////////  These questions was asked me into the interview
 
 /************************** Javascript ******************************************************/
-///////////Kartik Nanda(Interviewer)
+///////////Kartik Nanda (Interviewer)
 //1. web compression,
 //2. security feature like httponly, token,  Can javascript read all types of api.
 //3. lighthouse and its measures.
@@ -54,6 +55,10 @@
 //7. CORS
 //8. XSS
 //9. CSRF
+// Suggested me explore above topics that he asked
+// Also suggested about netwroking
+//for example - http/0.9(1991), http/1.0(1996), http/1.1(1997), http/2(2015), http/3(2020)
+
 /////////10. Coding
 // Create a vanilla JS application that consumes the https://pokeapi.co/api/v2/pokemon/ API and displays a
 // dropdown list of pokemons. When the user selects a pokemon from the dropdown, the application should make a
@@ -61,7 +66,8 @@
 // abilities, and display them on the page. Once the details are fetched, they should be cached and the
 //application should not make another API call for that pokemon again.
 
-///// Round 1 for nodejs
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////Round 1 for nodejs
 //1. Print 1 after 1 second, 2 after second, 3 after second, 4 after second, 5 after second
 ///// Round 2 for nodejs
 // Callback hell(Pyramid of DOM), Promises and async await.
@@ -69,17 +75,26 @@
 
 /************************** CSS ******************************************************/
 ///// Round 1
-//1.I need a phone number input field.
-// How can we only show the number keyboard rather than letters.
+//1. I need a phone number input field.
+//   How can we only show the number keyboard rather than letters.
 //2. Without using any javascript can we perform validation of the form input.
-// If yes then how
+//   If yes then how
 //3. Can we submit the form without use of JavaScript.
-// Where will the collected data go(to which url).
+//   Where will the collected data go(to which url).
 //4. What are semantic elements
 //   Does semantic elements help in SEO.
 //5. Layout coding
 
 /************************** ReactJS ******************************************************/
+/************************** Javascript ******************************************************/
+///////////Mitul Shah (Interviewer) - All questions are practical
+///// Code I did on codesandbox(using gulamjilanicse@gmail.com id)
+//1. Routing in reactjs(product, cart)
+//2. light and dark theme
+//3. fetching api data and display it
+//4. create a function where we can use the fetch api into two different component.
+//5. react boundry
+
 ////Round 1 for nodejs
 // A lot of basic about reactjs, hooks and redux
 ////Round 2

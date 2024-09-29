@@ -63,7 +63,7 @@ const ParentComponent = () => {
   ]);
 
   const deleteItem = useCallback((id) => {
-    setItems((prevItems) => prevItems.filter((item) => id === item.id));
+    setItems((prevItems) => prevItems.filter((item) => id !== item.id));
   }, []);
 
   return (
