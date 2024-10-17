@@ -43,7 +43,7 @@ export default function SignForm() {
     email: "",
     password: "",
   });
-  
+
   //const inputId = useId()
   function handleSubmit(e) {
     e.preventDefault();
@@ -55,6 +55,7 @@ export default function SignForm() {
       password: "",
     });
   }
+
   const handleChange = (e) => {
     const name = e.target.name;
     const { value } = e.target;
@@ -64,6 +65,7 @@ export default function SignForm() {
       [name]: value,
     }));
   };
+
   return (
     <>
       <h3> Sign Up </h3>

@@ -1,0 +1,27 @@
+/****************************************************************************************************
+ *********Reactjs 19 features
+ ** https://react.dev/blog/2024/04/25/react-19
+ ** Server Actions NextJS 14 - https://blog.logrocket.com/diving-into-server-actions-next-js-14
+ 🟦1. Actions. Server Actions and Server Component
+ 🟦2. React DOM: <form> Actions
+ 🟦3. useActionState
+ 🟦4. React DOM: New hook: useFormStatus
+ 🟦5. New hook: useOptimistic
+ 🟦6. New API: use
+ 🟦7. Diffs for hydration errors
+ 🟦8. Cleanup functions for refs
+ 🟦9. useDeferredValue initial value
+ 🟦10. Support for Document Metadata
+ 🟦11. Support for stylesheets
+ 🟦12. Support for async scripts
+ 🟦13. Support for preloading resources
+ 🟦14. Compatibility with third-party scripts and extensions
+ 🟦15. Better error reporting
+ 🟦16. Support for Custom Elements
+ *******************************************************************************************************/
+
+
+
+🟦Server Actions are becoming the subset of the Server Functions
+🟦SAutomatic Form Reset
+🟦SuseFormState is becoming useActionState

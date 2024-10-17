@@ -1,0 +1,13 @@
+1. **_Render props_** - Earlier used before hooks. But still useful into certain situation.
+   complete control over what the component renders, by passing a function to tells the component what
+   to render and how to do it. Sharing stateful logic to multiple components. Now a days we can with custom hooks as well.
+
+   lec364 - Amazing example of displaying 'companyItem' and 'productItem' with a single 'List' component.
+
+2. **_ Higher Order Components_** -
+3. **_Compound compoennt_** -
+4. **_Reusable Modal window and context menu_** -
+5. **_Unique content_** -
+6. **_children props_** - To customize the component's content.
+7. **_component and props_** - Use props as a component API, to enable custom behavior. Can be stateless, stateful,
+   or structural components.

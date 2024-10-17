@@ -45,6 +45,7 @@
 //////  event handlers into a single function outside of your component.
 
 import { useReducer } from "react";
+
 //reducer function and initial state usually remain outside the component.
 function reducer(state, action) {
   //console.log('inside reduce value of state',state)

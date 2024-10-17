@@ -2,7 +2,7 @@ import { createContext, useContext } from "react";
 
 const SomeContext = createContext();
 
-export default function UseContext() {
+export default function MainComponent() {
   return (
     <SomeContext.Provider value="SomeValue">
       <A />

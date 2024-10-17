@@ -49,7 +49,7 @@ export default function SelectForms() {
     const options = [...values];
     //console.log(options); // Array
     /// getting the values
-    const selectedOptions = options.map((option) => option.value);
+    const selectedOptions = optio=-`1234qweQQOP[]ns.map((option) => option.value);
     //console.log(selectedOptions); // Array of values
     setFruit(selectedOptions);
   };

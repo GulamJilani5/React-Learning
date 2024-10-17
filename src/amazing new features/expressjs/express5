@@ -1,0 +1,31 @@
+What's New in Express.js 5.0? 🚀
+
+Express.js has just released version 5.0, the first major update since 2014. Here’s a quick look at the key changes and what you need to know:
+
+1. Node.js 18 Required
+   To use Express.js 5.0, you must upgrade to Node.js 18 or higher.
+
+2. How to Install
+   To try it out, use this command:
+   npm install --save express@next
+
+3. Removed Methods
+   Several old methods have been removed, including:
+
+- app.del() ➡️ Use app.delete() now.
+- app.param(fn) has been removed, so it's time to refactor if you're using it.
+
+4. Route Matching Updates
+   Express 5 changes how routes are matched. For example, if you used /user*, now update it to /user(.*).
+
+5. Simplified Error Handling
+   No need to manually handle promise rejections in async functions! Express.js 5 automatically passes errors to the error handler.
+
+6. Dropped Support for Older Node.js Versions
+   If you're using Node.js 14 or older, it's time to upgrade. Express.js 5 only supports Node.js 18 and up.
+
+7. Other Key Improvements
+
+- Stricter Error Handling: Now you’ll get an error if you use invalid status codes (e.g., res.status(999)).
+- Security Enhancements: The Express.js team added security tools to catch vulnerabilities.
+- Refactored Dependencies: Fewer external packages, which means faster and more secure apps.

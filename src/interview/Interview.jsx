@@ -7,7 +7,12 @@
 ******************************************************************************
 ***1. Form - textbox, checkbox and radio button, dropdwon(select options)
 ***2. Hooks - useState, useEffect, useContext, useReducer, useMemo, useCallback
-***3. API Call and map function to render data on UI.
+             useContext - basic setup required. (Need to be truly hands-on practice on basic setup)
+            useReducer - have basic understanding. (Need to be truly hands-on practice on basic setup)
+            useRef -  have basic understanding. (Need to be truly hands-on practice on basic setup)
+***3. API Call and map function to render data on UI. (I have good practical understanding)
+***4. React router dom - (Basic setup for 2-3 component, I have done it and have practical understanding)
+***5. Redux - Basic setup (need to have basic practical hands-on setup)
 ******************************************************************************
 /*********************************************************************************************************/
 
@@ -30,8 +35,8 @@
 ***1. Authentication: JWT, OAuth2.
 ***2. Security Best Practices: HTTPS version, CORS, XSS prevention, CSRF.
 ***3. Encryption: SSL/TLS, Hashing (bcrypt).
-***4. Storage: localStorage, sessionStorage, indexDB, Caching(service wroker), Cooking,
-***5. Networking:  webSockket, server Sent event.
+***4. Storage: localStorage, sessionStorage, indexDB, Caching(service wroker), Cookie,
+***5. Networking: Fetch, Axios, React-Query, webSockket, server Sent event.
 ***5. Worker Threads, Service Worker(Caching)
 **********************************************************************************
 ***********************************************************************************************************
@@ -45,38 +50,7 @@
 *******************************************************************************
 /**********************************************************************************************************/
 /****************************************************************************************************
- *********Reactjs 18 features
- ***********1. Automatic Batching (see AccentureInterview.jsx DOM vs RealDOM)
- ********** 2. Concurrent Rendering
- ********** 3. Suspense for Data Fetching(Susspense Fallback)
- ********** 4. React Server Components
- ********** 5. Improved SSR and Hydration
- ********** 6. New Root API
- ********** 7. useId Hook
- ********** 8. startTransition API
- *******************************************************************************************************/
 
-/****************************************************************************************************
- *********Reactjs 19 features
- ** https://react.dev/blog/2024/04/25/react-19
- ** Server Actions NextJS 14 - https://blog.logrocket.com/diving-into-server-actions-next-js-14
- ***********1. Actions. Server Actions and Server Component
- ********** 2. React DOM: <form> Actions
- ********** 3. useActionState
- ********** 4. React DOM: New hook: useFormStatus
- ********** 5. New hook: useOptimistic
- ********** 6. New API: use
- ********** 7. Diffs for hydration errors
- ********** 8. Cleanup functions for refs
- ********** 9. useDeferredValue initial value
- ********** 10. Support for Document Metadata
- ********** 11. Support for stylesheets
- ********** 12. Support for async scripts
- ********** 13. Support for preloading resources
- ********** 14. Compatibility with third-party scripts and extensions
- ********** 15. Better error reporting
- ********** 16. Support for Custom Elements
- *******************************************************************************************************/
 
 //**********************Reactjs Lifecycle ***********************/
 // React component lifecycle methods are functions that are called at different stages of a component's lifecycle.
@@ -183,3 +157,10 @@ handleClick = async () => {
 //   Session based authentication - server side
 
 // Server store the cookies and client accordingly access the only after logged in
+
+////Cookie Options
+// HttpOnly: Prevents client-side JavaScript from accessing the cookie.
+// Secure: Use https to send the cookie.
+// SameSite: Specify whether the cookie can be sent with cross-site requests.
+// Max-Age or Expires: Delete the cookie after a certain period.
+// Path: Define the URL path for the cookie.

@@ -1,0 +1,10 @@
+Reactjs 18 features
+
+🟦1. Automatic Batching (see AccentureInterview.jsx DOM vs RealDOM)
+🟦2. Concurrent Rendering
+🟦3. Suspense for Data Fetching(Susspense Fallback)
+🟦4. React Server Components
+🟦5. Improved SSR and Hydration
+🟦6. New Root API
+🟦7. useId Hook
+🟦8. startTransition API

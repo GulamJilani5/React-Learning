@@ -95,6 +95,11 @@
 //4. create a function where we can use the fetch api into two different component.
 //5. react boundry
 
+/////////////////////////////////////
+////////// theoretical question asked to me
+//1. How we manage API endpoint or URLs in production
+//2. What is SSG
+
 ////Round 1 for nodejs
 // A lot of basic about reactjs, hooks and redux
 ////Round 2

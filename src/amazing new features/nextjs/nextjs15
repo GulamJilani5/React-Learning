@@ -1,0 +1,8 @@
+➡️Several Dynamics APIs are becoming Async
+
+- cookies()
+- params()
+- headers()
+- searchParams()
+
+➡️ Caching becomes Opt-In
