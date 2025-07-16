@@ -39,7 +39,7 @@ export default function UseEffect() {
  */
 
 // useEffect(() => {});
-// run in initial render and after every rerender
+// runs only once, after the initial render.
 
 // 2) empty dependency array. eg. []
 // useEffect(() => {
