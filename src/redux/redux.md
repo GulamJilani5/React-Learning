@@ -21,7 +21,6 @@
 
 Redux Toolkit (RTK) is the official, opinionated toolset for efficient Redux development.<br>
 
-**It includes:** <br>
 **configureStore():** Sets up a Redux store with good defaults.<br>
 **createSlice():** Generates action creators and action types automatically.<br>
 **createAsyncThunk():** Handles async logic.<br>
