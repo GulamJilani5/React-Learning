@@ -14,16 +14,16 @@
 
 ### 🔵 Important Redux Hooks
 
-🔷**useSelector():** Extracts data from the Redux store state.
+🔷**useSelector():** Extracts data from the Redux store state.  
 🔷 **useDispatch():** Returns a reference to the dispatch function.
 🔷 **useStore():** Returns a reference to the Redux store (rarely needed).
 
 ### 🔵 Redux Toolkit (Modern Redux)
 
 🟢 Redux Toolkit (RTK) is the official, opinionated toolset for efficient Redux development.
-**It includes:**
-🔷 **configureStore():** Sets up a Redux store with good defaults.  
-🔷 **createSlice():** Generates action creators and action types automatically.  
-🔷 **createAsyncThunk():** Handles async logic..
-🔷 **createEntityAdapter():** Manages normalized state.  
-🔷 **createSelector():** Creates memoized selectors (from Reselect).
+**It includes:**<br>
+🔷 **configureStore():** Sets up a Redux store with good defaults.<br>  
+🔷 **createSlice():** Generates action creators and action types automatically.<br>  
+🔷 **createAsyncThunk():** Handles async logic.<br>
+🔷 **createEntityAdapter():** Manages normalized state.<br>  
+🔷 **createSelector():** Creates memoized selectors (from Reselect).<br>
