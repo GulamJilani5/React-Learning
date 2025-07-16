@@ -1,4 +1,4 @@
-🟦 # Redux
+# 🟦 Redux
 
 - Redux is a predictable state container for JavaScript applications, most commonly used with React
 - It helps to manage global application state in a consistent way.
@@ -21,8 +21,8 @@
 
 Redux Toolkit (RTK) is the official, opinionated toolset for efficient Redux development.<br>
 
-**It includes:** <br>  
-**configureStore():** Sets up a Redux store with good defaults.<br>  
+**It includes:** <br>
+**configureStore():** Sets up a Redux store with good defaults.<br>
 **createSlice():** Generates action creators and action types automatically.<br>
 **createAsyncThunk():** Handles async logic.<br>
 **createEntityAdapter():** Manages normalized state.<br>
