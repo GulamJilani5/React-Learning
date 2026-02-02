@@ -12,6 +12,9 @@
 
 ### ➡️ useParams and useSearchParams
 
+- queryparam and pathvariable
+- Find `D:\Jilani\learning\React-Learning\reactjs-concepts\api-calling\queryparam-pathvariable.md`
+
 ### ➡️ Nested routes
 
 ### ➡️ Dynamic routing
