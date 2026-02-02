@@ -18,8 +18,9 @@
 
 ## ➡️2. functional componennt
 
-- **useEffect()**:
+- Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
+- **useEffect()**:
   - it handle all life cycle methods.
   - [] - depenedency array
 
@@ -58,4 +59,47 @@ useEffect(() => {
   console.log("Effect runs when count or apiID changes");
   // Example: fetch data based on apiID
 }, [count, apiID]);
+```
+
+---
+
+---
+
+# ⏺️ Reactjs Lifecycle
+
+### ➡️ React component lifecycle methods are functions that are called at different stages of a component's lifecycle.
+
+##### 🟦 1. MOUNTING:
+
+- These methods are called when an instance of a component is being created and inserted into the DOM.
+- `componentDidMount()`
+
+```js
+useEffect(() => {
+  // Code to run on mount
+}, []); // Empty dependency array ensures it runs only once
+```
+
+##### 🟦 2. UPDATING:
+
+- These methods are called when the component is being re-rendered due to changes in props or state.
+- `componentDidUpdat()`
+
+```js
+useEffect(() => {
+  // Code to run on update
+}, [dependency]); // Runs when 'dependency' changes
+```
+
+##### 🟦 3. UNMOUNTING
+
+- These methods are called when a component is being removed from the DOM.
+- `componentWillUnmount()`
+
+```js
+useEffect(() => {
+  return () => {
+    // Cleanup code to run on unmount
+  };
+}, []); // Empty dependency array ensures cleanup runs on unmount
 ```
