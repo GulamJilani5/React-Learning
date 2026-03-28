@@ -31,7 +31,7 @@ function App() {
 }
 ```
 
-- QueryClient is `The brain that stores all API data`.
+- **QueryClient** is `The brain that stores all API data`.
 
 ## ➡️ Server State vs Client State
 
