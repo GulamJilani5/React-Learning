@@ -14,11 +14,11 @@
 
 #### 🟦 Virtual DOM
 
-###### 🔵 Reconcilliation
+- ###### 🔵 Reconcilliation
 
-###### 🔵 ReadDOM
+- ###### 🔵 ReadDOM
 
-###### 🔵 JSX
+- ###### 🔵 JSX
 
 #### 🟦 Props vs State
 
@@ -28,9 +28,9 @@
 
 - Find ``
 
-###### 🔵 lifecycle method in class component
+- ###### 🔵 lifecycle method in class component
 
-###### 🔵 useEffect
+- ###### 🔵 useEffect
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
@@ -50,23 +50,23 @@
 
 - Find ``
 
-###### 🔵 useState
+- ###### 🔵 useState
 
 - Find ``
 
-###### 🔵 useEffect
+- ###### 🔵 useEffect
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
-###### 🔵 useReducer
+- ###### 🔵 useReducer
 
-###### 🔵 useContext
+- ###### 🔵 useContext
 
-###### 🔵 useMemo
+- ###### 🔵 useMemo
 
-###### 🔵 useCallback
+- ###### 🔵 useCallback
 
-###### 🔵 useRef
+- ###### 🔵 useRef
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\UseRefs.jsx`
 
