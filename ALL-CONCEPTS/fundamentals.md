@@ -4,63 +4,77 @@
 
 ## ➡️ Concepts
 
-##### 🔵 How React works in the borwser
+#### 🟦 How React works in the borwser
 
 - Find ``
 
-##### 🔵 Class vs Functional component
+#### 🟦 Class vs Functional component
 
 - Find ``
 
-##### 🔵 Virtual DOM
+#### 🟦 Virtual DOM
 
-- Reconcilliation
-- ReadDOM
-- JSX
+###### 🔵 Reconcilliation
 
-##### 🔵 Props vs State
+###### 🔵 ReadDOM
+
+###### 🔵 JSX
+
+#### 🟦 Props vs State
+
+- Find ``
+
+#### 🟦 Lifecycle
 
 - Find ``
 
-##### 🔵 Lifecycle
+###### 🔵 lifecycle method in class component
 
-- Find ``
-- lifecycle method in class component
-- useEffect
-  - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
+###### 🔵 useEffect
 
-##### 🔵 React Re-Rendering Logic
+- Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
+
+#### 🟦 React Re-Rendering Logic
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\core-ceactjs\concepts-2.md`
 
-##### 🔵 Controlled vs Uncontrolled Component
+#### 🟦 Controlled vs Uncontrolled Component
 
 - Find ``
 
-##### 🔵 Fetch & Axios
+#### 🟦 Fetch & Axios
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\api-calling\axiosvsfetch.md`
 
-##### 🔵 Hooks
+#### 🟦 Hooks
 
 - Find ``
-- useState
-  - Find ``
-- useEffect
-  - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
-- useReducer
-- useContext
-- useMemo
-- useCallback
-- useRef
-  - Find `D:\Jilani\learning\React-Learning\src\hooks\UseRefs.jsx`
+###### 🔵 useState
 
-##### 🔵 Custom Hook
+- Find ``
+
+###### 🔵 useEffect
+
+- Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
+
+###### 🔵 useReducer
+
+###### 🔵 useContext
+
+###### 🔵 useMemo
+
+###### 🔵 useCallback
+
+###### 🔵 useRef
+
+- Find `D:\Jilani\learning\React-Learning\src\hooks\UseRefs.jsx`
+
+#### 🟦 Custom Hook
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\CustomHookFetchData.jsx`
 
-##### 🔵 Babel vs Webpack
+#### 🟦 Babel vs Webpack
 
 ---
 
