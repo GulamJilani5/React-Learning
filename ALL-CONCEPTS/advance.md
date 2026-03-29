@@ -2,9 +2,9 @@
 
 # ⏺️ Advance Concepts/Interview Questions
 
-## ➡️ Concepts
+## ➡️ Security:
 
-#### 🟦 Security:
+#### 🟦 Concepts
 
 - ###### 🔵 Authentication: JWT, OAuth2.
 - ###### 🔵 HTTPS version
@@ -15,14 +15,22 @@
 - ###### 🔵 Env variables exposure
 - ###### 🔵 DangerouslySetInnerHTML – risk?
 
-#### 🟦 Networking:
+#### 🟦 Interview Questions
+
+## ➡️ Networking:
+
+#### 🟦 Concepts
 
 - ###### 🔵 Fetch & Axios
   - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\api-calling\axiosvsfetch.md`
 - ###### 🔵 webSockket
 - ###### 🔵 server Sent event.
 
-#### 🟦 Storage:
+#### 🟦 Interview Questions
+
+## ➡️ Storage:
+
+#### 🟦 Concepts
 
 - ###### 🔵 localStorage
 - ###### 🔵 sessionStorage
@@ -31,29 +39,16 @@
   - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\security\security_1.md`
 - ###### 🔵 Caching(service wroker)
 
-#### 🟦 Caching
+#### 🟦 Interview Questions
+
+## ➡️ Caching
+
+#### 🟦 Concepts
 
 - ###### 🔵 Worker Threads
 - ###### 🔵 Service Worker
 
----
-
-## ➡️ Interviews
-
-#### 🟦
-
-- ###### 🔵
-- ###### 🔵
-
-#### 🟦
-
-- ###### 🔵
-- ###### 🔵
-
-#### 🟦
-
-- ###### 🔵
-- ###### 🔵
+#### 🟦 Interview Questions
 
 ---
 

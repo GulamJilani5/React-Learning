@@ -2,15 +2,19 @@
 
 # ⏺️ Intermediate Concepts/Interview Questions
 
-## ➡️ Concepts
+## ➡️ Types of Styling in React
 
-#### 🟦 Types of Styling in React
+#### 🟦 Concepts
 
 - ###### 🔵 CSS in JS
 - ###### 🔵 CSS Module
 - ###### 🔵 External Library
 
-#### 🟦 React Router DOM
+#### 🟦 Interview Questions
+
+## ➡️ React Router DOM
+
+#### 🟦 Concepts
 
 - ###### 🔵 SPA routing vs traditional routing
   - Find ``
@@ -35,7 +39,9 @@
   - Find ``
   - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\security\security_1.md`
 
-#### 🟦 Redux State Management || Client side state management
+## ➡️ Redux State Management || Client side state management
+
+#### 🟦 Concepts
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\redux\redux.md`
 - redux thunk
@@ -43,62 +49,87 @@
 - redux saga
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\redux\ReduxSaga.md`
 
-#### 🟦 React TanStack || Server side state management
+#### 🟦 Interview Questions
+
+## ➡️ React TanStack || Server side state management
+
+#### 🟦 Concepts
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\api-calling\tanstackquery`
 
-#### 🟦 Error Handling & Error boundry
+#### 🟦 Interview Questions
+
+## ➡️ Error Handling & Error boundry
+
+#### 🟦 Concepts
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\error-handling`
 - ###### 🔵 react error boundry (library)
 - ###### 🔵 react error boundry (react router dom)
 
-#### 🟦 lazy loading
+#### 🟦 Interview Questions
+
+## ➡️ lazy loading
+
+#### 🟦 Concepts
 
 - Find ``
 - suspense & fallback
 
-#### 🟦 Authenticated - Protected Route
+#### 🟦 Interview Questions
+
+## ➡️ Authenticated - Protected Route
+
+#### 🟦 Concepts
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\security\security_1.md`
 
-#### 🟦 Code Splitting
+#### 🟦 Interview Questions
+
+## ➡️ Code Splitting
+
+#### 🟦 Concepts
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\design pattern\code-splitting.md`
 
-#### 🟦 Reactjs Testing
+#### 🟦 Interview Questions
+
+## ➡️ Reactjs Testing
+
+#### 🟦 Concepts
 
 - Find ``
 - ###### 🔵 Jest
 - ###### 🔵 React Testing Library
 
-#### 🟦 Reactjs 18 features
+#### 🟦 Interview Questions
+
+## ➡️ Reactjs 18 features
+
+#### 🟦 Concepts
 
 - Find ``
 
-#### 🟦 reactjs 19 feature - hooks and other features
+#### 🟦 Interview Questions
+
+## ➡️ reactjs 19 feature - hooks and other features
+
+#### 🟦 Concepts
 
 - Find ``
 
-#### 🟦 Create Portal
+#### 🟦 Interview Questions
 
-#### 🟦 Types Of Component component(SSR, CSR, SSG, ISG )
+## ➡️ Create Portal
+
+#### 🟦 Concepts
+
+#### 🟦 Interview Questions
+
+## ➡️ Types Of Component component(SSR, CSR, SSG, ISG )
+
+#### 🟦 Concepts
 
 - Find ``
 
----
-
-## ➡️ Interviews
-
-#### 🟦
-
-- ###### 🔵
-- ###### 🔵
-
-#### 🟦
-
-- ###### 🔵
-
-#### 🟦
-
-- ###### 🔵
+#### 🟦 Interview Questions
