@@ -1,44 +1,59 @@
-### ➡️ Advance
+⏺️ ➡️ 🟦 🔵 🟢 🔴 ⭕ 🟠 🟣 🟥 🟧 ✔️ ☑️ • ‣ → ⁕
 
-### 🟦 Concepts
+# ⏺️ Advance Concepts/Interview Questions
 
-##### 🔵 Security:
+## ➡️ Concepts
 
-- Authentication: JWT, OAuth2.
-- HTTPS version
-- CORS
-- XSS prevention
-- CSRF.
-- Encryption: SSL/TLS, Hashing (bcrypt).
-- Env variables exposure
-- DangerouslySetInnerHTML – risk?
+#### 🟦 Security:
 
-##### 🔵 Networking:
+- ###### 🔵 Authentication: JWT, OAuth2.
+- ###### 🔵 HTTPS version
+- ###### 🔵 CORS
+- ###### 🔵 XSS prevention
+- ###### 🔵 CSRF.
+- ###### 🔵 Encryption: SSL/TLS, Hashing (bcrypt).
+- ###### 🔵 Env variables exposure
+- ###### 🔵 DangerouslySetInnerHTML – risk?
 
-- Fetch & Axios
+#### 🟦 Networking:
+
+- ###### 🔵 Fetch & Axios
   - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\api-calling\axiosvsfetch.md`
-- webSockket
-- server Sent event.
+- ###### 🔵 webSockket
+- ###### 🔵 server Sent event.
 
-##### 🔵 Storage:
+#### 🟦 Storage:
 
-- localStorage
-- sessionStorage
-- indexDB
-- Cookie
+- ###### 🔵 localStorage
+- ###### 🔵 sessionStorage
+- ###### 🔵 indexDB
+- ###### 🔵 Cookie
   - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\security\security_1.md`
-- Caching(service wroker)
+- ###### 🔵 Caching(service wroker)
 
-##### 🔵 Caching
+#### 🟦 Caching
 
-- Worker Threads
-- Service Worker
+- ###### 🔵 Worker Threads
+- ###### 🔵 Service Worker
 
-### 🟦 Interviews
+---
 
-##### 🔵
+## ➡️ Interviews
 
-##### 🔵
+#### 🟦
+
+- ###### 🔵
+- ###### 🔵
+
+#### 🟦
+
+- ###### 🔵
+- ###### 🔵
+
+#### 🟦
+
+- ###### 🔵
+- ###### 🔵
 
 ---
 
