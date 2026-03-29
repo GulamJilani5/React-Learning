@@ -29,8 +29,7 @@
 - ###### 🔵 lifecycle method in class component
 
 - ###### 🔵 useEffect
-
-- Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
+  - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
 #### 🟦 React Re-Rendering Logic
 
@@ -53,8 +52,7 @@
 - Find ``
 
 - ###### 🔵 useEffect
-
-- Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
+  - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
 - ###### 🔵 useReducer
 
@@ -65,8 +63,7 @@
 - ###### 🔵 useCallback
 
 - ###### 🔵 useRef
-
-- Find `D:\Jilani\learning\React-Learning\src\hooks\UseRefs.jsx`
+  - Find `D:\Jilani\learning\React-Learning\src\hooks\UseRefs.jsx`
 
 #### 🟦 Custom Hook
 
@@ -81,12 +78,11 @@
 - ##### 🔵 useEffect vs useLayoutEffect
 
 - ##### 🔵 useState vs useReducer
-
-- Find `D:\Jilani\learning\React-Learning\src\hooks\UseReducer.jsx`
+  - Find `D:\Jilani\learning\React-Learning\src\hooks\UseReducer.jsx`
 
 - ##### 🔵 Optimization in React
 
-- useMemo and useCallback
+- ##### 🔵 useMemo and useCallback
   - find `D:\Jilani\learning\React-Learning\src\hooks\UseMemo.jsx`
   - find `D:\Jilani\learning\React-Learning\src\hooks\UseCallback.jsx`
 
