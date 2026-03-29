@@ -14,11 +14,9 @@
 
 #### 🟦 Virtual DOM
 
-> ###### 🔵 Reconcilliation
-
-> ###### 🔵 ReadDOM
-
-> ###### 🔵 JSX
+- ###### 🔵 Reconcilliation-
+- ###### 🔵 ReadDOM-
+- ###### 🔵 JSX
 
 #### 🟦 Props vs State
 
@@ -28,9 +26,9 @@
 
 - Find ``
 
-> ###### 🔵 lifecycle method in class component
+- ###### 🔵 lifecycle method in class component
 
-> ###### 🔵 useEffect
+- ###### 🔵 useEffect
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
@@ -50,23 +48,23 @@
 
 - Find ``
 
-> ###### 🔵 useState
+- ###### 🔵 useState
 
 - Find ``
 
-> ###### 🔵 useEffect
+- ###### 🔵 useEffect
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\UseEffect.jsx`
 
-> ###### 🔵 useReducer
+- ###### 🔵 useReducer
 
-> ###### 🔵 useContext
+- ###### 🔵 useContext
 
-> ###### 🔵 useMemo
+- ###### 🔵 useMemo
 
-> ###### 🔵 useCallback
+- ###### 🔵 useCallback
 
-> ###### 🔵 useRef
+- ###### 🔵 useRef
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\UseRefs.jsx`
 
@@ -80,28 +78,28 @@
 
 ## ➡️ Interview Questions
 
-##### 🔵 useEffect vs useLayoutEffect
+- ##### 🔵 useEffect vs useLayoutEffect
 
-##### 🔵 useState vs useReducer
+- ##### 🔵 useState vs useReducer
 
 - Find `D:\Jilani\learning\React-Learning\src\hooks\UseReducer.jsx`
 
-##### 🔵 Optimization in React
+- ##### 🔵 Optimization in React
 
 - useMemo and useCallback
   - find `D:\Jilani\learning\React-Learning\src\hooks\UseMemo.jsx`
   - find `D:\Jilani\learning\React-Learning\src\hooks\UseCallback.jsx`
 
-##### 🔵 What is Lifting state up
+- ##### 🔵 What is Lifting state up
 
-##### 🔵 Keys in lists – why important?
+- ##### 🔵 Keys in lists – why important?
 
-##### 🔵 Conditional rendering methods
+- ##### 🔵 Conditional rendering methods
 
-##### 🔵 Fragment – why used?
+- ##### 🔵 Fragment – why used?
 
-##### 🔵 Pure components
+- ##### 🔵 Pure components
 
-##### 🔵 Immutability in React
+- ##### 🔵 Immutability in React
 
-##### 🔵 What causes re-render?
+- ##### 🔵 What causes re-render?
