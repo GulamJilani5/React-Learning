@@ -1,6 +1,6 @@
 ⏺️ ➡️ 🟦 🔵 🟢 🔴 ⭕ 🟠 🟣 🟥 🟧 ✔️ ☑️ • ‣ → ⁕
 
-# ⏺️ Intermediate
+# ⏺️ Intermediate Concepts/Interview Questions
 
 ## ➡️ Concepts
 
