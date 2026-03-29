@@ -1,43 +1,41 @@
 ⏺️ ➡️ 🟦 🔵 🟢 🔴 ⭕ 🟠 🟣 🟥 🟧 ✔️ ☑️ • ‣ → ⁕
 
-# ⏺️
+# ⏺️ Intermediate
 
-### ➡️ Intermediate
+## ➡️ Concepts
 
-### 🟦 Concepts
+#### 🟦 Types of Styling in React
 
-##### 🔵 Types of Styling in React
+- ###### 🔵 CSS in JS
+- ###### 🔵 CSS Module
+- ###### 🔵 External Library
 
-- CSS in JS
-- CSS Module
-- External Library
+#### 🟦 React Router DOM
 
-##### 🔵 React Router DOM
-
-- SPA routing vs traditional routing
+- ###### 🔵 SPA routing vs traditional routing
   - Find ``
 
-- BrowserRouter vs HashRouter
+- ###### 🔵 BrowserRouter vs HashRouter
   - Find ``
 
-- Route vs Routes
+- ###### 🔵 Route vs Routes
   - Find ``
 
-- useNavigate
+- ###### 🔵 useNavigate
   - Find ``
 
-- query Param & Path Variable
+- ###### 🔵 query Param & Path Variable
   - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\api-calling\queryparam-pathvariable.md`
-- Nested routes
+- ##### 🔵 Nested routes
   - Find ``
-- Dynamic routing
+- ###### 🔵 Dynamic routing
   - Find ``
 
-- Protected routes
+- ###### 🔵 Protected routes
   - Find ``
   - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\security\security_1.md`
 
-##### 🔵 Redux State Management || Client side state management
+#### 🟦 Redux State Management || Client side state management
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\redux\redux.md`
 - redux thunk
@@ -45,51 +43,60 @@
 - redux saga
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\redux\ReduxSaga.md`
 
-##### 🔵 React TanStack || Server side state management
+#### 🟦 React TanStack || Server side state management
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\api-calling\tanstackquery`
 
-##### 🔵 Error Handling & Error boundry
+#### 🟦 Error Handling & Error boundry
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\error-handling`
-- react error boundry (library)
-- react error boundry (react router dom)
+- ###### 🔵 react error boundry (library)
+- ###### 🔵 react error boundry (react router dom)
 
-##### 🔵 lazy loading
+#### 🟦 lazy loading
 
 - Find ``
 - suspense & fallback
 
-##### 🔵 Authenticated - Protected Route
+#### 🟦 Authenticated - Protected Route
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\security\security_1.md`
 
-##### 🔵 Code Splitting
+#### 🟦 Code Splitting
 
 - Find `D:\Jilani\learning\React-Learning\reactjs-concepts\design pattern\code-splitting.md`
 
-##### 🔵 Reactjs Testing
+#### 🟦 Reactjs Testing
 
 - Find ``
-- Jest
-- React Testing Library
+- ###### 🔵 Jest
+- ###### 🔵 React Testing Library
 
-##### 🔵 Reactjs 18 features
-
-- Find ``
-
-##### 🔵 reactjs 19 feature - hooks and other features
+#### 🟦 Reactjs 18 features
 
 - Find ``
 
-##### 🔵 Create Portal
-
-##### 🔵 Types Of Component component(SSR, CSR, SSG, ISG )
+#### 🟦 reactjs 19 feature - hooks and other features
 
 - Find ``
 
-### 🟦 Interviews
+#### 🟦 Create Portal
 
-##### 🔵
+#### 🟦 Types Of Component component(SSR, CSR, SSG, ISG )
 
-##### 🔵
+- Find ``
+
+## ➡️ Interviews
+
+#### 🟦
+
+- ###### 🔵
+- ###### 🔵
+
+#### 🟦
+
+- ###### 🔵
+
+#### 🟦
+
+- ###### 🔵
