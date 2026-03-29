@@ -2,7 +2,7 @@
 
 # ⏺️ Fundamental Concepts/Interview Questions
 
-### ➡️ Concepts
+## ➡️ Concepts
 
 ##### 🔵 How React works in the borwser
 
@@ -64,7 +64,7 @@
 
 ---
 
-### ➡️ Interview Questions
+## ➡️ Interview Questions
 
 ##### 🔵 useEffect vs useLayoutEffect
 
